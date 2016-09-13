@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
-root 'messages#index'
+  root to: 'static_pages#home'
+
+# root 'messages#index'
 
 end
