@@ -13,4 +13,5 @@ class User < ActiveRecord::Base
                        on: :update
                        
   has_secure_password
+  has_many :microposts
 end
